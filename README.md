@@ -32,7 +32,8 @@ DataGuard is a powerful, cross-platform File Integrity Monitoring (FIM) solution
     Ensure Python 3.8 or higher is installed. Download it from python.org.
 
     Clone the Repository:
-    Open Command Prompt and run:
+
+Open Command Prompt and run:
 
 git clone https://github.com/YourUsername/DataGuard.git
 cd DataGuard
@@ -48,7 +49,8 @@ Run DataGuard:
 🐧 How to Install & Run DataGuard on Linux
 
     Install Python 3.8+ and Git:
-    For Ubuntu/Debian:
+   
+For Ubuntu/Debian:
 
 sudo apt update
 sudo apt install python3 python3-pip git
