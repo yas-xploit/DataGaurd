@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 Run the Application:
 
-    python main.py
+    python launcher.py
 
 Linux
 
