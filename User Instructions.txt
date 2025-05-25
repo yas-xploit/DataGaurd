@@ -1,0 +1,67 @@
+📘 User Instructions for the File Change Monitoring Tool
+
+Welcome to the File Change Monitoring Tool, a user-friendly application designed to monitor selected text files in real-time, providing immediate insights into any modifications. This tool is ideal for developers, system administrators, and anyone needing to track changes in critical files.
+
+1. Installation and Setup
+
+Prerequisites:
+
+    Ensure that Python is installed on your system.
+
+    Install the required libraries by running the following command in your terminal or command prompt:
+
+pip install -r requirements.txt
+
+Running the Application:
+
+    Execute the application by double-clicking the executable file, or
+
+    Run the script directly through your Python development environment.
+
+2. Selecting a File to Monitor
+
+Upon launching the application:
+
+    File Path Entry: Enter the full path of the text file you wish to monitor in the provided text field.
+
+    Browse Function: Alternatively, click the "Browse" button to open a file dialog and select the desired file from your system.
+
+Example: To monitor a file named myfile.txt, navigate to its location and select it.
+
+3. Initiating Monitoring
+
+After selecting the file:
+
+    Click the "Start Monitoring" button to commence monitoring.
+
+    The application will compute the file’s SHA-256 hash to establish a baseline for detecting changes.
+
+Note: Monitoring encompasses both content alterations and hash signature discrepancies.
+
+4. Viewing Detected Changes
+
+If the monitored file undergoes modifications:
+
+    The application will display:
+
+        Timestamp: Date and time of the detected change.
+
+        Change Details: Including the line number, previous content, and updated content.
+
+These details are presented in the result area at the bottom of the application window, facilitating easy review.
+
+5. Terminating Monitoring
+
+To stop monitoring:
+
+    Simply close the application window.
+
+Note: Closing the application halts all monitoring activities.
+
+6. Additional Features
+
+    Alert Notifications: Configure the application to send email or Telegram alerts upon detecting changes.
+
+    Scheduled Scans: Set up periodic scans based on file sensitivity levels (High, Medium, Low).
+
+    Backup and Recovery: The tool automatically creates backups of the original file, allowing restoration if necessary.
