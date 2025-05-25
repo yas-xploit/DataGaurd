@@ -1,4 +1,4 @@
-🛡️ DataGuard — File Integrity Monitoring & Tamper Detection Tool 🔒
+DataGuard — File Integrity Monitoring & Tamper Detection Tool 🔒
 
 DataGuard is a powerful, cross-platform File Integrity Monitoring (FIM) solution designed to safeguard the security and integrity of your critical files in real-time. Featuring a sleek and intuitive GUI built with customtkinter, DataGuard offers both real-time and scheduled monitoring to keep your data safe from unauthorized changes.
 ✨ Key Features:
@@ -21,12 +21,46 @@ DataGuard is a powerful, cross-platform File Integrity Monitoring (FIM) solution
 
     👥 User Management: Enables each user to securely register their email for receiving personalized alerts, with encrypted storage of app credentials.
 
-    🖥️ Modern and Responsive GUI: Crafted with customtkinter, featuring a clean dashboard, navigation bar, file status indicators, and interactive controls for a seamless user experience.
+    🖥️ Modern and Responsive GUI: Crafted with customtkinter, featuring a clean dashboard, navigation bar, file status indicators, and interactive controls.
 
-    💾 Automatic File Backup & Recovery: Backs up modified files automatically to facilitate easy recovery and investigation of changes.
+    💾 File Backup & Recovery: Automatically backs up modified files to aid recovery and forensic analysis.
 
-🎯 Ideal For:
+🖥️ How to Install & Run DataGuard on Windows
 
-System administrators, security analysts, developers, and anyone responsible for protecting sensitive data and ensuring system integrity. DataGuard helps you prevent tampering, detect unauthorized changes early, and maintain trustworthiness in your critical systems.
+    Download Python
+    Make sure Python 3.8 or higher is installed. Download it from python.org.
 
-Elevate your file security with DataGuard — your reliable guardian for file integrity! 🚀
+    Clone or Download the Repository
+
+git clone https://github.com/yourusername/DataGuard.git
+cd DataGuard
+
+Install Required Libraries
+Open Command Prompt and run:
+
+pip install -r requirements.txt
+
+Run the Application
+
+    python main.py
+
+🐧 How to Install & Run DataGuard on Linux
+
+    Install Python 3
+    Most distros come with Python pre-installed. Otherwise, install via your package manager:
+
+sudo apt update
+sudo apt install python3 python3-pip
+
+Clone or Download the Repository
+
+git clone https://github.com/yourusername/DataGuard.git
+cd DataGuard
+
+Install Dependencies
+
+pip3 install -r requirements.txt
+
+Run the Application
+
+python3 main.py
