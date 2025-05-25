@@ -44,7 +44,7 @@ pip install -r requirements.txt
 
 Run DataGuard:
 
-    python main.py
+    python launcher.py
 
 🐧 How to Install & Run DataGuard on Linux
 
