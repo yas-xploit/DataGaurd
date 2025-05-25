@@ -1,11 +1,11 @@
-DataGuard — File Integrity Monitoring & Tamper Detection Tool 🔒
+🛡️ DataGuard — File Integrity Monitoring & Tamper Detection Tool 🔒
 
-DataGuard is a robust, cross-platform File Integrity Monitoring (FIM) tool designed to protect the security and integrity of your critical files in real-time. With a sleek and intuitive GUI built on customtkinter, DataGuard offers both real-time and scheduled monitoring, ensuring your sensitive data remains safe from unauthorized changes.
+DataGuard is a powerful, cross-platform File Integrity Monitoring (FIM) tool designed to protect the security and integrity of your sensitive files in real-time. Built with a sleek and user-friendly GUI using customtkinter, DataGuard offers both real-time and scheduled monitoring to detect unauthorized changes instantly.
 ✨ Key Features
 
-    🕵️‍♂️ Real-Time Monitoring: Immediately detects changes to important files and triggers alerts through GUI pop-ups, an in-app Alert Box, and email notifications for quick response.
+    🕵️‍♂️ Real-Time Monitoring: Detects file changes immediately and triggers alerts via GUI pop-ups, an in-app Alert Box, and email notifications.
 
-    📅 Scheduled Scans: Configure scan intervals based on file sensitivity:
+    📅 Scheduled Scans: Customizable scan intervals based on file sensitivity:
 
         🔴 High: every 30 minutes
 
@@ -13,27 +13,27 @@ DataGuard is a robust, cross-platform File Integrity Monitoring (FIM) tool desig
 
         🟢 Low: every week
 
-    🔍 File Metadata Analysis: Monitors SHA-256 hashes, file size, modification timestamps, and permission changes to detect tampering accurately.
+    🔍 File Metadata & Hash Analysis: Monitors SHA-256 hashes, file size, modification times, and permission changes.
 
-    📜 Comprehensive Change Logging: Logs all changes with timestamps for audit trails and forensic investigations.
+    📜 Comprehensive Change Logging: Records all changes with timestamps for audit and forensic purposes.
 
-    🚨 Alert System: Provides clear visual alerts, maintains an Alert Box history, and sends instant email notifications.
+    🚨 Robust Alert System: Visual alerts, alert history tab, and instant email notifications.
 
-    👥 User Management: Allows users to securely register emails to receive alerts, with encrypted password storage.
+    👥 User Management: Secure user registration with encrypted password storage and personalized alert emails.
 
-    🖥️ Modern & Responsive GUI: Clean dashboard, navigation bar, file status indicators, and interactive controls built with customtkinter.
+    🖥️ Modern GUI: Clean dashboard with navigation bar, file status indicators, and interactive controls.
 
-    💾 File Backup & Recovery: Automatically backs up modified files to support recovery and forensic analysis.
+    💾 Backup & Recovery: Automatically backs up changed files to enable recovery and forensic analysis.
 
-🖥️ How to Install & Run DataGuard on Windows
+💻 How to Install & Run DataGuard
+Windows
 
-    Install Python:
-
-        Ensure Python 3.8 or higher is installed. Download from python.org.
+    Install Python 3.8+
+    Download and install from python.org.
 
     Clone the Repository:
 
-git clone https://github.com/yourusername/DataGuard.git
+git clone https://github.com/yas-xploit/DataGuard.git
 cd DataGuard
 
 Install Dependencies:
@@ -42,20 +42,18 @@ pip install -r requirements.txt
 
 Run the Application:
 
-    python launcher.py
+    python main.py
 
-🐧 How to Install & Run DataGuard on Linux
+Linux
 
-    Install Python:
+    Ensure Python 3.8+ is Installed:
+    Use your package manager, e.g.,
 
-        Make sure Python 3.8+ is installed. Use your package manager, for example:
-
-sudo apt update
-sudo apt install python3 python3-pip
+sudo apt update && sudo apt install python3 python3-pip
 
 Clone the Repository:
 
-git clone https://github.com/yourusername/DataGuard.git
+git clone https://github.com/yas-xploit/DataGuard.git
 cd DataGuard
 
 Install Dependencies:
@@ -66,6 +64,8 @@ Run the Application:
 
     python3 main.py
 
-🔐 Why Choose DataGuard?
+📬 Contact & Support
 
-Whether you are a system administrator, security analyst, or developer, DataGuard helps you maintain trust in your systems by preventing file tampering, enabling swift detection, and simplifying forensic investigations — all through a modern, user-friendly interface.
+For any questions, feature requests, or issues, feel free to open an issue on GitHub or contact [your email/contact info].
+
+Protect your files with DataGuard — your trusted companion in file integrity and tamper detection! 🚀
