@@ -44,25 +44,6 @@ Run the Application:
 
     python launcher.py
 
-Linux
-
-    Ensure Python 3.8+ is Installed:
-    Use your package manager, e.g.,
-
-sudo apt update && sudo apt install python3 python3-pip
-
-Clone the Repository:
-
-git clone https://github.com/yas-xploit/DataGuard.git
-cd DataGuard
-
-Install Dependencies:
-
-pip3 install -r requirements.txt
-
-Run the Application:
-
-    python3 main.py
 
 📬 Contact & Support
 
