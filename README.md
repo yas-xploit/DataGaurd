@@ -34,6 +34,7 @@ Windows
     Clone the Repository:
 
 git clone https://github.com/yas-xploit/DataGuard.git
+
 cd DataGuard
 
 Install Dependencies:
